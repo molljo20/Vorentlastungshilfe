@@ -942,7 +942,6 @@ class VokabelPDFParser:
         current_entry = None
 
         for row in table:
-            # Jede Zeile sollte mindestens 3 Spalten haben: Nr., Griechisch, Stammformen, evtl. Bedeutung
             if len(row) < 3:
                 continue
             nr_cell = row[0].strip() if row[0] else ""
@@ -952,7 +951,6 @@ class VokabelPDFParser:
 
             num_match = re.match(r'^(\d+)', nr_cell)
             if num_match:
-                # Vorherigen Eintrag abschließen
                 if current_entry:
                     self._suche_bedeutungen(current_entry)
                     result.append(current_entry)
@@ -1067,7 +1065,7 @@ class PDFGenerator:
 
 
 # ============================================
-# STREAMLIT UI – mit editierbarem griechischem Wort
+# STREAMLIT UI
 # ============================================
 
 def main():
@@ -1083,7 +1081,7 @@ def main():
         • Mehrere Zeilen in der mittleren Spalte werden automatisch gruppiert.  
         • Bereits vorhandene Bedeutungen werden übernommen.
 
-        **Korrektur:** Sie können das griechische Wort in der linken Spalte ändern, falls es falsch erkannt wurde – die Bedeutung wird dann neu gesucht.
+        **Korrektur:** Sie können das griechische Wort in der linken Spalte ändern, falls es falsch erkannt wurde.
         """)
         st.markdown("---")
         st.caption("Omega-Wortschatz © Ulrich Gebhardt, CC BY-NC-SA 4.0")
@@ -1111,7 +1109,6 @@ def main():
             korrigierte = []
             for e in eintraege:
                 with st.expander(f"{e.position}. {e.griechisch}", expanded=False):
-                    # Griechisches Wort editierbar
                     neues_griechisch = st.text_input(
                         "Griechisches Wort (Lemma)",
                         value=e.griechisch,
@@ -1119,10 +1116,8 @@ def main():
                     )
                     if neues_griechisch != e.griechisch:
                         e.griechisch = neues_griechisch
-                        # Bei Änderung alle Bedeutungen zurücksetzen und neu suchen
                         e.bedeutungen = [""] * len(e.stammzeilen)
                         e.gefunden = False
-                        # Suche für jede Stammzeile (normalerweise nur eine, aber sicherheitshalber)
                         for i, stamm in enumerate(e.stammzeilen):
                             suchwort = parser._extrahiere_hauptwort(stamm)
                             if suchwort:
@@ -1133,7 +1128,6 @@ def main():
                                 else:
                                     e.bedeutungen[i] = ""
 
-                    # Für jede Zeile in der mittleren Spalte ein Eingabefeld für die Bedeutung
                     for idx, (stamm, bed) in enumerate(zip(e.stammzeilen, e.bedeutungen)):
                         st.markdown(f"**Zeile {idx+1}:** {stamm}")
                         neue_bed = st.text_area(
