@@ -597,4 +597,649 @@ class OmegaWortschatz:
             "νύξ": ("Nacht", "νύξ, νυκτός, ἡ", "νυκτός - nachts"),
         })
         
-        #
+        # ============ XI ============
+        self.vocab_dict.update({
+            "ξένος": ("Fremder; Gast; Söldner", "ξένος, ου, ὁ", ""),
+            "ξύλον": ("Holz", "ξύλον, ου, τό", ""),
+        })
+        
+        # ============ OMICRON ============
+        self.vocab_dict.update({
+            "ὁ": ("der", "ὁ, ἡ, τό", "ὁ μέν...ὁ δέ - der eine...der andere"),
+            "ὅδε": ("dieser hier", "ὅδε, ἥδε, τόδε", ""),
+            "ὁδός": ("Weg, Reise", "ὁδός, οῦ, ἡ", ""),
+            "οἶδα": ("wissen, kennen", "οἶδα, εἴσομαι", ""),
+            "οἰκεῖος": ("häuslich; eigen; verwandt", "οἰκεῖος, α, ον", ""),
+            "οἰκέω": ("wohnen, bewohnen", "οἰκέω, οἰκήσω, ᾤκησα", ""),
+            "οἰκία": ("Haus, Gebäude", "οἰκία, ας, ἡ", ""),
+            "οἶκος": ("Haus; Familie", "οἶκος, ου, ὁ", ""),
+            "οἶνος": ("Wein", "οἶνος, ου, ὁ", ""),
+            "οἴομαι": ("glauben, meinen", "οἴομαι/οἶμαι", ""),
+            "οἷος": ("wie beschaffen", "οἷος, οία, οἷον", "οἷός τέ εἰμι - imstande sein"),
+            "οἴχομαι": ("fortgehen, fortsein", "οἴχομαι", ""),
+            "ὀλίγος": ("wenig, gering", "ὀλίγος, η, ον", "ὀλίγου δεῖν - beinahe"),
+            "ὅλος": ("ganz", "ὅλος, η, ον", "καθ' ὅλου - im allgemeinen"),
+            "ὅμοιος": ("gleich, ähnlich", "ὅμοιος, α, ον", ""),
+            "ὁμολογέω": ("übereinstimmen, zustimmen", "ὁμολογέω", ""),
+            "ὅμως": ("dennoch", "ὅμως", ""),
+            "ὄνομα": ("Name; Ruf", "ὄνομα, ατος, τό", ""),
+            "ὀνομάζω": ("nennen, benennen", "ὀνομάζω", ""),
+            "ὁπλίτης": ("Schwerbewaffneter", "ὁπλίτης, ου, ὁ", ""),
+            "ὅπλον": ("Waffe", "ὅπλον, ου, τό", ""),
+            "ὁπότε": ("als, wenn", "ὁπότε", ""),
+            "ὅπου": ("wo", "ὅπου", ""),
+            "ὁράω": ("sehen", "ὁράω, ὄψομαι, εἶδον, ἑώρακα, ὦμμαι, ὤφθην", ""),
+            "ὄργανον": ("Werkzeug, Instrument", "ὄργανον, ου, τό", ""),
+            "ὀργή": ("Zorn", "ὀργή, ῆς, ἡ", ""),
+            "ὀρθός": ("gerade, aufrecht; richtig", "ὀρθός, ή, όν", ""),
+            "ὁρίζω": ("begrenzen, definieren", "ὁρίζω", ""),
+            "ὁρμάω": ("sich in Bewegung setzen", "ὁρμάω", ""),
+            "ὄρνις": ("Vogel", "ὄρνις, ιθος, ὁ/ἡ", ""),
+            "ὄρος": ("Berg", "ὄρος, ους, τό", ""),
+            "ὅς": ("welcher, der", "ὅς, ἥ, ὅ", "ὃς ἄν - wer auch immer"),
+            "ὅσιος": ("heilig, recht; fromm", "ὅσιος, α, ον", ""),
+            "ὅσος": ("wie groß, wie viel", "ὅσος, η, ον", "ὅσῳ...τοσούτῳ - je...desto"),
+            "ὅστις": ("wer auch immer", "ὅστις, ἥτις, ὅ τι", ""),
+            "ὅταν": ("immer wenn", "ὅταν", ""),
+            "ὅτε": ("als, wenn", "ὅτε", ""),
+            "ὅτι": ("dass, weil", "ὅτι", ""),
+            "οὐ": ("nicht", "οὐ, οὐκ, οὐχ", ""),
+            "οὐδέ": ("und nicht, auch nicht", "οὐδέ", ""),
+            "οὐδείς": ("niemand, nichts", "οὐδείς, οὐδεμία, οὐδέν", ""),
+            "οὐκέτι": ("nicht mehr", "οὐκέτι", ""),
+            "οὖν": ("nun; also", "οὖν", ""),
+            "οὔπω": ("noch nicht", "οὔπω", ""),
+            "οὐρανός": ("Himmel", "οὐρανός, οῦ, ὁ", ""),
+            "οὔτε...οὔτε": ("weder... noch", "οὔτε...οὔτε", ""),
+            "οὗτος": ("dieser", "οὗτος, αὕτη, τοῦτο", ""),
+            "οὕτως": ("so", "οὕτως/οὕτω", ""),
+            "ὀφείλω": ("schulden, sollen", "ὀφείλω", "ὤφελες - du hättest sollen"),
+            "ὀφθαλμός": ("Auge", "ὀφθαλμός, οῦ, ὁ", ""),
+            "ὄψις": ("Sehkraft, Aussehen", "ὄψις, εως, ἡ", ""),
+        })
+        
+        # ============ PI ============
+        self.vocab_dict.update({
+            "πάθος": ("Erlebnis; Leid, Leiden; Leidenschaft", "πάθος, ους, τό", ""),
+            "παιδεία": ("Erziehung, Bildung", "παιδεία, ας, ἡ", ""),
+            "παιδεύω": ("erziehen, bilden", "παιδεύω", ""),
+            "παιδίον": ("Kind", "παιδίον, ου, τό", ""),
+            "παῖς": ("Kind; Sklave", "παῖς, παιδός, ὁ/ἡ", ""),
+            "παλαιός": ("alt", "παλαιός, ά, όν", ""),
+            "πάλιν": ("wieder, zurück", "πάλιν", ""),
+            "παντάπασι": ("ganz und gar", "παντάπασι", ""),
+            "πάνυ": ("ganz, sehr", "πάνυ", ""),
+            "παρά": ("von (+Gen.); bei (+Dat.); zu (+Akk.)", "παρά", ""),
+            "παραγίγνομαι": ("hinzukommen", "παραγίγνομαι", ""),
+            "παραδίδωμι": ("übergeben, überliefern", "παραδίδωμι", ""),
+            "παρακαλέω": ("herbeirufen, auffordern", "παρακαλέω", ""),
+            "παρασκευάζω": ("vorbereiten", "παρασκευάζω", ""),
+            "πάρειμι": ("da sein, anwesend sein", "πάρειμι", "πάρεστί μοι - es steht in meiner Macht"),
+            "παρέχω": ("gewähren, geben", "παρέχω", ""),
+            "πᾶς": ("all, ganz, jeder", "πᾶς, πᾶσα, πᾶν", ""),
+            "πάσχω": ("erleiden; erleben", "πάσχω, πείσομαι, ἔπαθον, πέπονθα", ""),
+            "πατήρ": ("Vater", "πατήρ, πατρός, ὁ", ""),
+            "πατρίς": ("Vaterland, Heimat", "πατρίς, ίδος, ἡ", ""),
+            "παύω": ("beenden, aufhören lassen", "παύω, παύσω, ἔπαυσα", ""),
+            "πείθω": ("überreden, überzeugen", "πείθω, πείσω, ἔπεισα, πέποιθα, πέπεισμαι, ἐπείσθην", ""),
+            "πειράω": ("versuchen", "πειράω", ""),
+            "πέμπω": ("schicken, senden", "πέμπω, πέμψω, ἔπεμψα", ""),
+            "πέντε": ("fünf", "πέντε", ""),
+            "περί": ("über (+Gen.); um (+Akk.)", "περί", ""),
+            "πέτρα": ("Fels, Stein", "πέτρα, ας, ἡ", ""),
+            "πίνω": ("trinken", "πίνω, πίομαι, ἔπιον", ""),
+            "πίπτω": ("fallen", "πίπτω, πεσοῦμαι, ἔπεσον, πέπτωκα", ""),
+            "πιστεύω": ("glauben, vertrauen", "πιστεύω, πιστεύσω, ἐπίστευσα", ""),
+            "πίστις": ("Treue, Vertrauen", "πίστις, εως, ἡ", ""),
+            "πιστός": ("treu, zuverlässig", "πιστός, ή, όν", ""),
+            "πλανάομαι": ("sich verirren, umherirren", "πλανάομαι", ""),
+            "πλέω": ("segeln, fahren", "πλέω, πλεύσομαι, ἔπλευσα", ""),
+            "πλήθος": ("Menge", "πλήθος, ους, τό", ""),
+            "πλήν": ("außer", "πλήν", ""),
+            "πλήττω": ("schlagen", "πλήττω", ""),
+            "πλοῖον": ("Schiff", "πλοῖον, ου, τό", ""),
+            "πλοῦτος": ("Reichtum", "πλοῦτος, ου, ὁ", ""),
+            "ποιέω": ("machen, tun; dichten", "ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην", ""),
+            "ποίησις": ("Dichtung, Poesie", "ποίησις, εως, ἡ", ""),
+            "ποιητής": ("Dichter; Schöpfer", "ποιητής, οῦ, ὁ", ""),
+            "ποῖος": ("wie beschaffen?", "ποῖος, α, ον", ""),
+            "πόλεμος": ("Krieg", "πόλεμος, ου, ὁ", ""),
+            "πόλις": ("Stadt; Staat", "πόλις, εως, ἡ", ""),
+            "πολιτεία": ("Staatsverfassung", "πολιτεία, ας, ἡ", ""),
+            "πολίτης": ("Bürger", "πολίτης, ου, ὁ", ""),
+            "πολιτικός": ("bürgerlich, politisch", "πολιτικός, ή, όν", ""),
+            "πολλάκις": ("oft", "πολλάκις", ""),
+            "πολύς": ("viel", "πολύς, πολλή, πολύ", "οἱ πολλοί - die meisten"),
+            "πονηρός": ("schlecht, böse", "πονηρός, ά, όν", ""),
+            "πόνος": ("Mühe, Arbeit", "πόνος, ου, ὁ", ""),
+            "πορεύομαι": ("reisen, marschieren", "πορεύομαι, πορεύσομαι, ἐπορεύθην", ""),
+            "ποταμός": ("Fluss", "ποταμός, οῦ, ὁ", ""),
+            "πότε": ("wann?", "πότε", ""),
+            "ποτέ": ("einst, jemals", "ποτέ", ""),
+            "πότερος": ("welcher von beiden?", "πότερος, α, ον", ""),
+            "ποῦ": ("wo?", "ποῦ", ""),
+            "πούς": ("Fuß", "πούς, ποδός, ὁ", ""),
+            "πρᾶγμα": ("Tat, Sache, Angelegenheit", "πρᾶγμα, ατος, τό", "πράγματα παρέχω - Schwierigkeiten bereiten"),
+            "πρᾶξις": ("Handlung, Tätigkeit", "πρᾶξις, εως, ἡ", ""),
+            "πράττω": ("tun, handeln", "πράττω, πράξω, ἔπραξα, πέπραχα", "εὖ πράττω - es geht mir gut"),
+            "πρέπει": ("es gehört sich", "πρέπει", ""),
+            "πρέσβυς": ("alter Mann; Gesandter", "πρέσβυς, εως, ὁ", ""),
+            "πρίν": ("ehe, bevor", "πρίν", ""),
+            "πρό": ("vor", "πρό", ""),
+            "πρός": ("zu, gegen, bei", "πρός", ""),
+            "προσέχω": ("hinlenken", "προσέχω", "προσέχω τὸν νοῦν - achten auf"),
+            "πρόσωπον": ("Gesicht; Person", "πρόσωπον, ου, τό", ""),
+            "πρότερος": ("der frühere", "πρότερος, α, ον", "πρότερον - früher"),
+            "πρῶτος": ("der erste", "πρῶτος, η, ον", "πρῶτον - zuerst"),
+            "πυνθάνομαι": ("sich erkundigen, erfahren", "πυνθάνομαι, πεύσομαι, ἐπυθόμην, πέπυσμαι", ""),
+            "πῦρ": ("Feuer", "πῦρ, πυρός, τό", ""),
+            "πώποτε": ("jemals", "πώποτε", ""),
+            "πῶς": ("wie?", "πῶς", ""),
+            "πως": ("irgendwie", "πως", ""),
+        })
+        
+        # ============ RHO ============
+        self.vocab_dict.update({
+            "ῥᾴδιος": ("leicht", "ῥᾴδιος, α, ον", ""),
+            "ῥέω": ("fließen", "ῥέω", ""),
+            "ῥήτωρ": ("Redner", "ῥήτωρ, ορος, ὁ", ""),
+        })
+        
+        # ============ SIGMA ============
+        self.vocab_dict.update({
+            "σαφής": ("deutlich, klar", "σαφής, ές", ""),
+            "σεαυτοῦ": ("deiner selbst", "σεαυτοῦ, ῆς, οῦ", ""),
+            "σέβομαι": ("verehren", "σέβομαι", ""),
+            "σημαίνω": ("zeigen, anzeigen", "σημαίνω", ""),
+            "σῖτος": ("Getreide, Nahrung", "σῖτος, ου, ὁ", ""),
+            "σκηνή": ("Zelt; Bühne", "σκηνή, ῆς, ἡ", ""),
+            "σκοπέω": ("betrachten, prüfen", "σκοπέω", ""),
+            "σός": ("dein", "σός, σή, σόν", ""),
+            "σοφία": ("Weisheit, Klugheit", "σοφία, ας, ἡ", ""),
+            "σοφός": ("weise, klug", "σοφός, ή, όν", ""),
+            "σπεύδω": ("eilen, sich beeilen", "σπεύδω", ""),
+            "σπουδάζω": ("sich beeilen, sich bemühen", "σπουδάζω", ""),
+            "σπουδή": ("Eifer, Ernst; Eile", "σπουδή, ῆς, ἡ", ""),
+            "στάσις": ("Aufstand, Unruhe", "στάσις, εως, ἡ", ""),
+            "στέφανος": ("Kranz, Siegeskranz", "στέφανος, ου, ὁ", ""),
+            "στοά": ("Säulenhalle", "στοά, ᾶς, ἡ", ""),
+            "στρατηγός": ("Feldherr", "στρατηγός, οῦ, ὁ", ""),
+            "στρατιώτης": ("Soldat", "στρατιώτης, ου, ὁ", ""),
+            "στρατός": ("Heer", "στρατός, οῦ, ὁ", ""),
+            "στρέφω": ("drehen, wenden", "στρέφω", ""),
+            "σύ": ("du", "σύ, σοῦ", ""),
+            "συγγίγνομαι": ("zusammenkommen", "συγγίγνομαι", ""),
+            "συγχωρέω": ("nachgeben, zustimmen", "συγχωρέω", ""),
+            "συμβαίνω": ("sich ereignen", "συμβαίνω, συμβήσομαι, συνέβην, συμβέβηκα", ""),
+            "συμβουλεύω": ("raten", "συμβουλεύω", ""),
+            "σύμμαχος": ("verbündet", "σύμμαχος, ον", ""),
+            "σύν": ("mit", "σύν", ""),
+            "σύνειμι": ("zusammen sein", "σύνειμι", ""),
+            "συνίημι": ("verstehen", "συνίημι", ""),
+            "σφόδρα": ("sehr", "σφόδρα", ""),
+            "σχεδόν": ("beinahe", "σχεδόν", ""),
+            "σχῆμα": ("Haltung, Gestalt", "σχῆμα, ατος, τό", ""),
+            "σχολή": ("Muße; Schule", "σχολή, ῆς, ἡ", ""),
+            "σῴζω": ("retten, bewahren", "σῴζω, σώσω, ἔσωσα, σέσωκα", ""),
+            "σῶμα": ("Körper", "σῶμα, ατος, τό", ""),
+            "σωτήρ": ("Retter", "σωτήρ, ῆρος, ὁ", ""),
+            "σωφροσύνη": ("Besonnenheit", "σωφροσύνη, ης, ἡ", ""),
+            "σώφρων": ("besonnen, vernünftig", "σώφρων, ον", ""),
+        })
+        
+        # ============ TAU ============
+        self.vocab_dict.update({
+            "τάττω": ("aufstellen, anordnen", "τάττω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην", ""),
+            "ταχύς": ("schnell", "ταχύς, εῖα, ύ", ""),
+            "τε": ("und", "τε", "...τε...καί - sowohl...als auch"),
+            "τεῖχος": ("Mauer", "τεῖχος, ους, τό", ""),
+            "τεκμήριον": ("Beweis", "τεκμήριον, ου, τό", ""),
+            "τέκνον": ("Kind", "τέκνον, ου, τό", ""),
+            "τελευτάω": ("beenden; sterben", "τελευτάω", ""),
+            "τελέω": ("vollenden, bezahlen", "τελέω", ""),
+            "τέλος": ("Ende; Ziel", "τέλος, ους, τό", "τέλος - endlich"),
+            "τέμνω": ("schneiden", "τέμνω, τεμῶ, ἔτεμον", ""),
+            "τέτταρες": ("vier", "τέτταρες, α", ""),
+            "τέχνη": ("Kunst, Fähigkeit", "τέχνη, ης, ἡ", ""),
+            "τίθημι": ("setzen, stellen, legen", "τίθημι, θήσω, ἔθηκα, τέθηκα, κεῖμαι, ἐτέθην", ""),
+            "τίκτω": ("zeugen, gebären", "τίκτω, τέξομαι, ἔτεκον, τέτοκα", ""),
+            "τιμάω": ("ehren", "τιμάω, τιμήσω, ἐτίμησα, τετίμηκα", ""),
+            "τιμή": ("Ehre", "τιμή, ῆς, ἡ", ""),
+            "τις": ("jemand, irgendeiner", "τις, τι", ""),
+            "τίς": ("wer? was?", "τίς, τί", ""),
+            "τοι": ("wahrlich", "τοι", ""),
+            "τοίνυν": ("also, folglich", "τοίνυν", ""),
+            "τοιοῦτος": ("solcher, derartig", "τοιοῦτος, αύτη, οῦτο", ""),
+            "τολμάω": ("wagen", "τολμάω", ""),
+            "τόπος": ("Ort, Platz", "τόπος, ου, ὁ", ""),
+            "τοσοῦτος": ("so groß", "τοσοῦτος, αύτη, οῦτο", ""),
+            "τότε": ("da, damals, dann", "τότε", ""),
+            "τρεῖς": ("drei", "τρεῖς, τρία", ""),
+            "τρέπω": ("wenden", "τρέπω, τρέψω, ἔτρεψα", ""),
+            "τρέφω": ("ernähren, aufziehen", "τρέφω, θρέψω, ἔθρεψα, τέθραμμαι, ἐτράφην", ""),
+            "τρόπος": ("Art und Weise; Charakter", "τρόπος, ου, ὁ", ""),
+            "τυγχάνω": ("treffen; gerade tun", "τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα", "τυγχάνω ποιῶν τι - gerade etw. tun"),
+            "τύπτω": ("schlagen", "τύπτω", ""),
+            "τύραννος": ("Gewaltherrscher", "τύραννος, ου, ὁ", ""),
+            "τύχη": ("Zufall, Schicksal, Glück", "τύχη, ης, ἡ", ""),
+        })
+        
+        # ============ YPSILON ============
+        self.vocab_dict.update({
+            "ὕβρις": ("Hochmut; Freveltat", "ὕβρις, εως, ἡ", ""),
+            "ὑγίεια": ("Gesundheit", "ὑγίεια, ας, ἡ", ""),
+            "ὑγιής": ("gesund", "ὑγιής, ές", ""),
+            "ὕδωρ": ("Wasser", "ὕδωρ, ατος, τό", ""),
+            "υἱός": ("Sohn", "υἱός, οῦ, ὁ", ""),
+            "ὑμεῖς": ("ihr", "ὑμεῖς, ὑμῶν, ὑμῖν, ὑμᾶς", ""),
+            "ὑμέτερος": ("euer", "ὑμέτερος, α, ον", ""),
+            "ὕπνος": ("Schlaf", "ὕπνος, ου, ὁ", ""),
+            "ὑπό": ("unter (+Gen./Dat./Akk.)", "ὑπό", ""),
+            "ὑπολαμβάνω": ("vermuten; entgegnen", "ὑπολαμβάνω", ""),
+        })
+        
+        # ============ PHI ============
+        self.vocab_dict.update({
+            "φαίνω": ("zeigen; erscheinen", "φαίνω, φανῶ, ἔφηνα, πέφηνα, πέφασμαι, ἐφάνην", ""),
+            "φανερός": ("sichtbar, deutlich", "φανερός, ά, όν", ""),
+            "φάρμακον": ("Heilmittel, Gift", "φάρμακον, ου, τό", ""),
+            "φάσκω": ("sagen, behaupten", "φάσκω", ""),
+            "φαῦλος": ("schlecht", "φαῦλος, η, ον", ""),
+            "φέρω": ("tragen, bringen, ertragen", "φέρω, οἴσω, ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην", ""),
+            "φεύγω": ("fliehen, meiden", "φεύγω, φεύξομαι, ἔφυγον, πέφευγα", ""),
+            "φημί": ("sagen, behaupten", "φημί, φήσω, ἔφησα/ἔφην", ""),
+            "φθονέω": ("beneiden", "φθονέω", ""),
+            "φιλέω": ("lieben", "φιλέω", ""),
+            "φιλία": ("Freundschaft", "φιλία, ας, ἡ", ""),
+            "φίλος": ("lieb; Freund", "φίλος, η, ον", ""),
+            "φιλοσοφία": ("Philosophie", "φιλοσοφία, ας, ἡ", ""),
+            "φιλόσοφος": ("Philosoph", "φιλόσοφος, ου, ὁ", ""),
+            "φοβέομαι": ("sich fürchten", "φοβέομαι, φοβήσομαι, ἐφοβήθην", ""),
+            "φόβος": ("Furcht", "φόβος, ου, ὁ", ""),
+            "φονεύω": ("ermorden", "φονεύω", ""),
+            "φράζω": ("sagen, zeigen", "φράζω, φράσω, ἔφρασα", ""),
+            "φρονέω": ("denken, Verstand haben", "φρονέω", ""),
+            "φρόνιμος": ("verständig, klug", "φρόνιμος, ον", ""),
+            "φροντίζω": ("sich kümmern", "φροντίζω", ""),
+            "φυλάττω": ("bewachen, bewahren", "φυλάττω, φυλάξω, ἐφύλαξα", ""),
+            "φύσις": ("Natur; Wesen", "φύσις, εως, ἡ", ""),
+            "φωνή": ("Stimme; Klang", "φωνή, ῆς, ἡ", ""),
+            "φῶς": ("Licht", "φῶς, φωτός, τό", ""),
+        })
+        
+        # ============ CHI ============
+        self.vocab_dict.update({
+            "χαίρω": ("sich freuen", "χαίρω, χαιρήσω, κεχάρηκα, ἐχάρην", "χαῖρε - sei gegrüßt!"),
+            "χαλεπός": ("schwer, schwierig", "χαλεπός, ή, όν", ""),
+            "χάρις": ("Gefälligkeit, Dank; Anmut", "χάρις, ιτος, ἡ", "χάριν ἀποδίδωμι - danken"),
+            "χείρ": ("Hand", "χείρ, χειρός, ἡ", ""),
+            "χείρων": ("schlechter", "χείρων, χεῖρον", "Komp. zu κακός"),
+            "χέω": ("gießen, vergießen", "χέω", ""),
+            "χορός": ("Tanz, Reigen", "χορός, οῦ, ὁ", ""),
+            "χράομαι": ("gebrauchen, benutzen", "χράομαι, χρήσομαι, ἐχρησάμην, κέχρημαι", ""),
+            "χρή": ("es ist nötig, man muss", "χρή", ""),
+            "χρῆμα": ("Sache; pl. Geld", "χρῆμα, ατος, τό", ""),
+            "χρήσιμος": ("nützlich, brauchbar", "χρήσιμος, η, ον", ""),
+            "χρόνος": ("Zeit", "χρόνος, ου, ὁ", ""),
+            "χρυσός": ("Gold", "χρυσός, οῦ, ὁ", ""),
+            "χώρα": ("Land, Gegend; Ort", "χώρα, ας, ἡ", ""),
+            "χωρέω": ("weichen, gehen", "χωρέω", ""),
+            "χωρίς": ("getrennt von, ohne", "χωρίς", ""),
+        })
+        
+        # ============ PSI ============
+        self.vocab_dict.update({
+            "ψεύδω": ("täuschen; lügen", "ψεύδω, ψεύσω, ἔψευσα", ""),
+            "ψυχή": ("Seele, Leben", "ψυχή, ῆς, ἡ", ""),
+            "ψυχρός": ("kalt", "ψυχρός, ά, όν", ""),
+        })
+        
+        # ============ OMEGA ============
+        self.vocab_dict.update({
+            "ὦ": ("o!", "ὦ", ""),
+            "ὦδε": ("so, folgendermaßen", "ὦδε", ""),
+            "ᾠδή": ("Gesang, Lied", "ᾠδή, ῆς, ἡ", ""),
+            "ὥρα": ("Jahreszeit; rechte Zeit", "ὥρα, ας, ἡ", ""),
+            "ὡς": ("wie, dass; damit", "ὡς", ""),
+            "ὥσπερ": ("wie, gerade wie", "ὥσπερ", ""),
+            "ὥστε": ("so dass; daher", "ὥστε", ""),
+            "ὠφελέω": ("nützen; unterstützen", "ὠφελέω", ""),
+            "ὠφέλιμος": ("nützlich", "ὠφέλιμος, ον", ""),
+        })
+
+    def _normalize(self, text: str) -> str:
+        text = unicodedata.normalize('NFD', text)
+        text = re.sub(r'[\u0300-\u036f]', '', text)
+        return text
+
+    def finde_bedeutung(self, griechisch: str) -> Tuple[Optional[List[str]], bool, str]:
+        suchbegriff = griechisch.strip()
+        if suchbegriff in self.vocab_dict:
+            bedeutung, stammformen, zusatz = self.vocab_dict[suchbegriff]
+            bedeutungen = [b.strip() for b in bedeutung.split(';')]
+            return bedeutungen, True, f"{stammformen} {zusatz}".strip()
+        if suchbegriff in self.synonyme:
+            hauptform = self.synonyme[suchbegriff]
+            if hauptform in self.vocab_dict:
+                bedeutung, stammformen, zusatz = self.vocab_dict[hauptform]
+                bedeutungen = [b.strip() for b in bedeutung.split(';')]
+                return bedeutungen, True, f"{stammformen} {zusatz} [Synonym zu {hauptform}]".strip()
+        such_norm = self._normalize(suchbegriff)
+        for key in self.vocab_dict:
+            if self._normalize(key) == such_norm:
+                bedeutung, stammformen, zusatz = self.vocab_dict[key]
+                bedeutungen = [b.strip() for b in bedeutung.split(';')]
+                return bedeutungen, True, f"{stammformen} {zusatz}".strip()
+        return None, False, ""
+
+
+# ============================================
+# PDF-PARSER
+# ============================================
+
+class VokabelPDFParser:
+    def __init__(self):
+        self.omega = OmegaWortschatz()
+        self.artikel = {
+            'ὁ', 'ἡ', 'τό', 'τὸ', 'οἱ', 'αἱ', 'τά', 'τὰ',
+            'τὸν', 'τὴν', 'τοῦ', 'τῆς', 'τῷ', 'τῇ', 'τούς', 'τάς'
+        }
+
+    def parse_pdf(self, pdf_file) -> List[VokabelEintrag]:
+        eintraege = []
+        with pdfplumber.open(pdf_file) as pdf:
+            for page in pdf.pages:
+                tables = page.extract_tables()
+                for table in tables:
+                    if table:
+                        eintraege.extend(self._parse_table(table))
+        eintraege.sort(key=lambda x: x.position)
+        return eintraege
+
+    def _parse_table(self, table: List[List[str]]) -> List[VokabelEintrag]:
+        result = []
+        current_entry = None
+
+        for row in table:
+            if len(row) < 3:
+                continue
+            nr_cell = row[0].strip() if row[0] else ""
+            greek_cell = row[1].strip() if len(row) > 1 and row[1] else ""
+            stamm_cell = row[2].strip() if len(row) > 2 and row[2] else ""
+            bedeutung_cell = row[3].strip() if len(row) > 3 and row[3] else ""
+
+            num_match = re.match(r'^(\d+)', nr_cell)
+            if num_match:
+                if current_entry:
+                    result.append(current_entry)
+
+                pos = int(num_match.group(1))
+                hauptwort = self._extrahiere_hauptwort(greek_cell)
+                current_entry = VokabelEintrag(
+                    position=pos,
+                    griechisch=hauptwort,
+                    stammzeilen=[stamm_cell] if stamm_cell else [],
+                    bedeutungen=[bedeutung_cell] if bedeutung_cell else []
+                )
+            else:
+                if current_entry and stamm_cell:
+                    current_entry.stammzeilen.append(stamm_cell)
+                    current_entry.bedeutungen.append(bedeutung_cell)
+
+        if current_entry:
+            result.append(current_entry)
+
+        # Jetzt für jeden Eintrag die Bedeutungen suchen
+        for eintrag in result:
+            self._suche_bedeutungen_fuer_eintrag(eintrag)
+
+        return result
+
+    def _extrahiere_hauptwort(self, zelle: str) -> str:
+        greek_words = re.findall(r'([\u0370-\u03FF\u1F00-\u1FFF]+)', zelle)
+        for w in greek_words:
+            if w not in self.artikel:
+                return w
+        return greek_words[0] if greek_words else ""
+
+    def _suche_bedeutungen_fuer_eintrag(self, eintrag: VokabelEintrag):
+        """Sucht für alle Stammzeilen die Bedeutungen."""
+        gefunden_irgendeine = False
+        
+        # Zuerst das Hauptwort suchen (falls die erste Stammzeile leer ist)
+        if eintrag.stammzeilen and len(eintrag.bedeutungen) > 0 and not eintrag.bedeutungen[0]:
+            bedeutungen, gefunden, _ = self.omega.finde_bedeutung(eintrag.griechisch)
+            if gefunden and bedeutungen:
+                eintrag.bedeutungen[0] = "; ".join(bedeutungen)
+                gefunden_irgendeine = True
+
+        # Dann alle Stammzeilen durchgehen
+        for i, (stamm, bed) in enumerate(zip(eintrag.stammzeilen, eintrag.bedeutungen)):
+            if bed:  # Bedeutung bereits vorhanden
+                gefunden_irgendeine = True
+                continue
+            
+            suchwort = self._extrahiere_hauptwort(stamm)
+            if suchwort:
+                bedeutungen, gefunden, _ = self.omega.finde_bedeutung(suchwort)
+                if gefunden and bedeutungen:
+                    eintrag.bedeutungen[i] = "; ".join(bedeutungen)
+                    gefunden_irgendeine = True
+                else:
+                    eintrag.bedeutungen[i] = ""
+            else:
+                eintrag.bedeutungen[i] = ""
+        
+        eintrag.gefunden = gefunden_irgendeine
+
+
+# ============================================
+# PDF-GENERATOR – mit korrekter Bedeutungsausgabe
+# ============================================
+
+class PDFGenerator:
+    @staticmethod
+    def erstelle_pdf(eintraege: List[VokabelEintrag]) -> BytesIO:
+        buffer = BytesIO()
+        doc = SimpleDocTemplate(buffer, pagesize=A4)
+        story = []
+        styles = getSampleStyleSheet()
+
+        cell_style = ParagraphStyle(
+            'CellStyle',
+            parent=styles['Normal'],
+            fontSize=9,
+            leading=11,
+            alignment=0
+        )
+
+        titel = Paragraph("Vokabelliste mit Bedeutungen", styles['Heading1'])
+        story.append(titel)
+        story.append(Spacer(1, 0.5*cm))
+
+        data = [['Nr.', 'Griechisch', 'Stammformen (PDF)', 'Bedeutungen']]
+
+        for e in eintraege:
+            # Stammformen als mehrzeiligen Text formatieren
+            stamm_text = "<br/>".join(e.stammzeilen) if e.stammzeilen else ""
+            
+            # Bedeutungen als mehrzeiligen Text formatieren
+            bedeutung_liste = []
+            for bed in e.bedeutungen:
+                if bed:
+                    bedeutung_liste.append(bed)
+                else:
+                    bedeutung_liste.append("⚠️ nicht gefunden")
+            bed_text = "<br/>".join(bedeutung_liste)
+
+            # Paragraph-Objekte für mehrzeiligen Text in den Zellen
+            stamm_para = Paragraph(stamm_text, cell_style)
+            bed_para = Paragraph(bed_text, cell_style)
+
+            data.append([
+                str(e.position),
+                e.griechisch,
+                stamm_para,
+                bed_para
+            ])
+
+        # Tabelle erstellen
+        table = Table(data, colWidths=[1.5*cm, 4*cm, 5*cm, 5*cm])
+        table.setStyle(TableStyle([
+            ('BACKGROUND', (0,0), (-1,0), colors.grey),
+            ('TEXTCOLOR', (0,0), (-1,0), colors.whitesmoke),
+            ('ALIGN', (0,0), (-1,-1), 'LEFT'),
+            ('VALIGN', (0,0), (-1,-1), 'TOP'),
+            ('FONTNAME', (0,0), (-1,0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0,0), (-1,0), 12),
+            ('BOTTOMPADDING', (0,0), (-1,0), 12),
+            ('BACKGROUND', (0,1), (-1,-1), colors.beige),
+            ('GRID', (0,0), (-1,-1), 1, colors.black),
+            ('FONTSIZE', (0,1), (-1,-1), 9),
+        ]))
+        story.append(table)
+        story.append(Spacer(1, 1*cm))
+        story.append(Paragraph(
+            "Vokabeldaten basierend auf dem Omega-Wortschatz von Ulrich Gebhardt, Freiburg - CC BY-NC-SA 4.0",
+            styles['Italic']
+        ))
+        doc.build(story)
+        buffer.seek(0)
+        return buffer
+
+
+# ============================================
+# STREAMLIT UI
+# ============================================
+
+def main():
+    st.set_page_config(page_title="Altgriechisch Vokabeltrainer", page_icon="📚", layout="wide")
+    st.title("📚 Altgriechisch Vokabeltrainer")
+    st.markdown("---")
+
+    with st.sidebar:
+        st.header("ℹ️ Info")
+        st.markdown("""
+        **Erwartetes PDF-Format:**  
+        • Tabelle mit 4 Spalten: Nummer, Griechisch, Stammformen, Bedeutung (kann leer sein).  
+        • Mehrere Zeilen in der mittleren Spalte werden automatisch gruppiert.  
+        • Bereits vorhandene Bedeutungen werden übernommen.
+
+        **Korrektur:** Sie können das griechische Wort in der linken Spalte ändern, falls es falsch erkannt wurde.
+        """)
+        st.markdown("---")
+        st.caption("Omega-Wortschatz © Ulrich Gebhardt, CC BY-NC-SA 4.0")
+
+    uploaded_file = st.file_uploader("📤 Vokabellisten-PDF auswählen", type=['pdf'])
+
+    if uploaded_file:
+        with st.spinner("📖 Analysiere PDF und suche Bedeutungen..."):
+            parser = VokabelPDFParser()
+            eintraege = parser.parse_pdf(uploaded_file)
+
+        if eintraege:
+            st.success(f"✅ {len(eintraege)} Hauptvokabeln verarbeitet.")
+
+            gefunden = sum(1 for e in eintraege if e.gefunden)
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Hauptvokabeln", len(eintraege))
+            col2.metric("davon (teilweise) gefunden", gefunden, f"{gefunden/len(eintraege)*100:.0f}%")
+            col3.metric("Fehlende Bedeutungen", sum(e.bedeutungen.count("") for e in eintraege))
+
+            # Vorschau der gefundenen Bedeutungen anzeigen
+            st.markdown("---")
+            st.subheader("👁️ Vorschau der gefundenen Bedeutungen")
+            for e in eintraege[:5]:  # Erste 5 anzeigen
+                st.markdown(f"**{e.position}. {e.griechisch}**")
+                for idx, (stamm, bed) in enumerate(zip(e.stammzeilen, e.bedeutungen)):
+                    st.markdown(f"- {stamm} → {bed if bed else '⚠️ nicht gefunden'}")
+                st.markdown("---")
+
+            st.markdown("---")
+            st.subheader("✏️ Manuelle Korrektur")
+            st.caption("Passen Sie bei Bedarf das griechische Wort oder die Bedeutungen an.")
+
+            korrigierte = []
+            for e in eintraege:
+                with st.expander(f"{e.position}. {e.griechisch}", expanded=False):
+                    neues_griechisch = st.text_input(
+                        "Griechisches Wort (Lemma)",
+                        value=e.griechisch,
+                        key=f"greek_{e.position}"
+                    )
+                    if neues_griechisch != e.griechisch:
+                        e.griechisch = neues_griechisch
+                        # Bei Änderung alle Bedeutungen zurücksetzen und neu suchen
+                        e.bedeutungen = [""] * len(e.stammzeilen)
+                        parser._suche_bedeutungen_fuer_eintrag(e)
+
+                    for idx, (stamm, bed) in enumerate(zip(e.stammzeilen, e.bedeutungen)):
+                        st.markdown(f"**Zeile {idx+1}:** {stamm}")
+                        neue_bed = st.text_area(
+                            f"Bedeutung",
+                            value=bed,
+                            key=f"{e.position}_{idx}",
+                            height=60,
+                            label_visibility="collapsed"
+                        )
+                        if neue_bed != bed:
+                            e.bedeutungen[idx] = neue_bed
+                            if neue_bed:
+                                e.gefunden = True
+                    korrigierte.append(e)
+
+            st.markdown("---")
+            st.subheader("📥 Export")
+
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button("📄 PDF erstellen", type="primary"):
+                    pdf_data = PDFGenerator.erstelle_pdf(korrigierte)
+                    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    st.download_button(
+                        "⬇️ PDF herunterladen",
+                        pdf_data,
+                        f"vokabeln_mit_bedeutungen_{ts}.pdf",
+                        "application/pdf"
+                    )
+            with col2:
+                if st.button("📊 CSV exportieren"):
+                    rows = []
+                    for e in korrigierte:
+                        for idx, (stamm, bed) in enumerate(zip(e.stammzeilen, e.bedeutungen)):
+                            rows.append({
+                                'Nr.': e.position if idx == 0 else '',
+                                'Griechisch': e.griechisch if idx == 0 else '',
+                                'Stammform': stamm,
+                                'Bedeutung': bed if bed else "⚠️ nicht gefunden"
+                            })
+                    df = pd.DataFrame(rows)
+                    csv = df.to_csv(index=False, encoding='utf-8-sig')
+                    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    st.download_button(
+                        "⬇️ CSV herunterladen",
+                        csv,
+                        f"vokabeln_mit_bedeutungen_{ts}.csv",
+                        "text/csv"
+                    )
+
+        else:
+            st.warning("⚠️ Keine Tabelle mit Vokabeln gefunden.")
+    else:
+        st.info("👈 Bitte laden Sie eine PDF mit einer 4‑spaltigen Tabelle hoch.")
+        st.markdown("""
+        **Beispiel für die erwartete Tabellenstruktur:**  
+
+        | Nr. | Griechisch | Stammformen | Bedeutung |
+        |-----|------------|-------------|-----------|
+        | 1   | ὁ ἀνήρ     | τοῦ ἀνδρός  |           |
+        | 2   | ὅς         | ἤ, ὅ        |           |
+        |     |            | ὄς ἄν       |           |
+        | 3   | μάλα       | μᾶλλον      |           |
+        |     |            | μάλιστα     |           |
+
+        Die App sucht automatisch die Bedeutungen und füllt die rechte Spalte.
+        """)
+
+if __name__ == "__main__":
+    main()
